@@ -52,7 +52,7 @@ st.markdown("""
 def main_page():
 
     st.header("Main Page")
-    st.write("Welcome to the main section of our application.")
+    st.write("Welcome to the compliance Database, please use the menu to the left to view electrical and mecanical stats")
     
     # Additional main page content
     st.write("This is the home page with general information.")
