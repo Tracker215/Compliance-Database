@@ -1,12 +1,5 @@
 import streamlit as st
 
-st.title("Compliance Database")
-st.write(
-    "Database for viewing compliance information")
-
-
-st.write("hello")
-
 # Custom CSS to set specific dark purple background
 st.markdown("""
     <style>
@@ -57,6 +50,13 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 def main_page():
+ st.title("Compliance Database")
+st.write(
+    "Database for viewing compliance information")
+
+
+st.write("hello")
+    
     st.header("Main Page")
     st.write("Welcome to the main section of our application.")
     
