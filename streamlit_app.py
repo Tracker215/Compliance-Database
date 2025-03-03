@@ -33,20 +33,6 @@ def main_page():
     st.write("Database for viewing compliance information")
     st.write("Hello")
     
-    st.header("Main Page Details")
-    st.write("Welcome to the main section of our application.")
-    
-    # Additional main page content
-    st.write("This is the home page with general information.")
-    
-    # Add a table or some sample data
-    st.subheader("Compliance Overview")
-    compliance_data = {
-        'Category': ['Safety', 'Environmental', 'Regulatory'],
-        'Status': ['Compliant', 'Pending Review', 'Compliant']
-    }
-    st.table(compliance_data)
-
 def electrical_page():
     st.header("Electrical Compliance")
     st.write("Explore electrical engineering compliance topics and resources.")
