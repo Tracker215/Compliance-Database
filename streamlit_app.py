@@ -9,7 +9,7 @@ st.markdown("""
     }
     .stTextInput > div > div > input {
         color: black;
-        background-color: #f0f0f0;
+        background-color: #fcfafa;
     }
     .stButton > button {
         background-color: #4a148c;
