@@ -9,7 +9,7 @@ st.markdown("""
     }
     .stTextInput > div > div > input {
         color: black;
-        background-color: #FFFFFF;
+        background-color: #f0f0f0;
     }
     .stButton > button {
         background-color: #4a148c;
@@ -50,8 +50,15 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 def main_page():
-    st.header("Compliance Database")
-    st.write("Welcome to the compliance Database, please use the menu to the left to view electrical and mecanical stats")
+ st.title("Compliance Database")
+st.write(
+    "Database for viewing compliance information")
+
+
+st.write("hello")
+    
+    st.header("Main Page")
+    st.write("Welcome to the main section of our application.")
     
     # Additional main page content
     st.write("This is the home page with general information.")
@@ -83,7 +90,7 @@ def main():
     )
     
     # Page routing based on menu selection
-    if menu_selection == "Main Menu":
+    if menu_selection == "Main":
         main_page()
     elif menu_selection == "Electrical":
         electrical_page()
