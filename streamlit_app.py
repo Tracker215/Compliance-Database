@@ -50,7 +50,6 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 def main_page():
-
     st.header("Compliance Database")
     st.write("Welcome to the compliance Database, please use the menu to the left to view electrical and mecanical stats")
     
