@@ -51,7 +51,7 @@ st.markdown("""
 
 def main_page():
 
-    st.header("Main Page")
+    st.header("Compliance Database")
     st.write("Welcome to the compliance Database, please use the menu to the left to view electrical and mecanical stats")
     
     # Additional main page content
@@ -84,7 +84,7 @@ def main():
     )
     
     # Page routing based on menu selection
-    if menu_selection == "Main":
+    if menu_selection == "Main Menu":
         main_page()
     elif menu_selection == "Electrical":
         electrical_page()
