@@ -2,7 +2,8 @@ import streamlit as st
 
 st.title("Compliance Database")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Database for viewing compliance information
+    "
 )
 st.write("hello")
 
